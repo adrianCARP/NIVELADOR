@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Berkshire+Swash & display=swap');
+/* * {
+    border : 1px solid red;
+} */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME */
+
+body {
+    height: auto;
+}
+section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 2% 2%;
+    box-sizing: border-box;
+    /* display: flex;
+    gap: 7rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    width: auto; */
+}
+
+.nav-header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.logo-nav {
+    height: 80px;
+    width: 80px;
+    margin: 1rem;
+    box-shadow: 0 10px 20px rgb(0, 0, 30);
+    border-radius: 5px;
+}
+
+.nav-list {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap: 120px;
+    list-style: none;
+    margin: 2.5rem;
+    background: transparent;
+    font-size: 150%;
+}
+
+
+section {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+
+}
+
+.card1{
+    flex: 1;
+    overflow: hidden;
+    margin: 8px;
+    box-shadow: 0 30px 30px rgb(0, 0, 30);
+    border-radius: 9px;
+}
+
+.card1 img {
+    
+    width: 100%;
+    height: 100%;
+} 
+
+.titulo-card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.text-card1 {
+    margin: 20px;
+    height: 20%;
+}
+
+.pie-pagina {
+    width: 100%;
+    height: 10%;
+    
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    height: 50%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0.5%;
+    
+   
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+} */
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 150%;
+    background: transparent;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: rgb(5, 5, 5);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: rgb(20, 6, 6);
+    margin-bottom: 30px;
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.grupo2 {
+    height: 100px;
+    margin: 10%;
+} 
+
+.sobre-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-social {
+    display: flex;
+    justify-content:space-around;
+    margin: 15%;
+}
+
+.copy {
+    max-width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5%;
+}
+
+
+
+
+
+
+
+
+/* INGRESAR */
+
+.formulario-log {
+    width: 400px;
+    background: url("./assets/img/logoros.1.png");
+    background-color: rgb(68, 66, 66);
+    background-blend-mode: soft-light;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(250, 246, 246);
+    
+}
+ 
+::placeholder {
+    color:white;
+}
+.formulario-log h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(250, 249, 249);
+}
+
+.campo {
+    width: 100%;
+    background: rgb(85, 87, 81)  ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(248, 245, 245);
+    font-size: 18px;
+}
+
+.formulario-log p {
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.formulario-log a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.formulario-log a:hover {
+    color: white;
+    text-decoration: underline
+    
+}
+
+.formulario-log .boton {
+    width: 100%;
+    background: rgb(150, 105, 84);
+    padding: 12px;
+    border-radius: 4px;
+    background:salmon;
+    transition: 0.9s all;
+
+}
+
+
+
+
+
+
+
+
+
+/* REGISTRO */
+
+.boton :hover {
+    transform: scale();
+}
+
+
+.formulario-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(250, 249, 249);
+   
+}
+
+.campo {
+    width: 100%;
+    background:transparent ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(248, 245, 245);
+    font-size: 18px;
+    
+   
+
+}
+
+.formulario-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.formulario-registro a {
+    color: rgb(4, 4, 10);
+    text-decoration: none;
+    margin-bottom: 5px;
+    text-shadow: 5px;
+}
+
+
+
+.formulario-registro .boton {
+    width: 100%;
+    background: salmon;
+    padding: 12px;
+    border-radius: 4px;
+    transition: 0.9s all;   
+}
+.formulario-registro {
+    width: 400px;
+    background: url("./assets/img/logoros.1.png");
+    background-color: rgb(68, 66, 66);
+    background-blend-mode: soft-light;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(250, 246, 246);
+}
+
+
+.formulario-registro h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(250, 249, 249);
+}
+
+.campo {
+    width: 100%;
+    background: rgb(113, 119, 100)  ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(248, 245, 245);
+    font-size: 18px;
+}
+
+.campo ::placeholder {
+    color: white;
+}
+
+.formulario-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.formulario-registro a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.formulario-registro a:hover {
+    color: white;
+    text-decoration: underline
+    
+}
+
+.formulario-registro .boton {
+    width: 100%;
+    background: rgb(150, 105, 84);
+    padding: 12px;
+    border-radius: 4px;
+    background:salmon;
+    transition: 0.9s all;
+
+}
+
+
+
+
+
+
+
+
+/* HISTORIA */
+
+
+.texto-titulo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.titulo-historia {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+/* media INDEX */
+@media (max-width: 360px){
+    .nav-header {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .nav-list {
+        margin-left: 50%;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 50%;
+    }
+    section {
+        flex-direction: column;
+        height: 300vh;
+        width: 400px;
+        padding: 50 20px; 
+    } 
+    
+    .grupo-1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    header {
+        flex-direction: column;
+        height: 100vh;
+        text-align: center;
+
+    }
+    .box {
+        margin-left: 60%;
+    }
+
+    .box-red {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 90%;
+        justify-content: center;
+        align-items: ;
+    }
+
+    .div2-mapa {
+        width: 650px;
+        height: auto;
+    }
+
+    .red-social {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 50px;
+        width: 300px;
+        flex-direction: column;
+        margin-right: 10%;
+    }
+
+    .red-h2 {
+        color: white;
+    } 
+
+    .sobre-h2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lorem-home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copy {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 90%;
+        margin: 90% 90%; 
+    }
+
+    .pie-pagina {
+        margin-left: 30%;
+        width: 30%;
+        height: 60%;
+        
+    }
+    .card1 {
+        height: 0%;
+        width: 90%;
+
+    }
+
+.formulario-log {
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario-registro {
+   background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+}
+
+.pie-pagina .grupo-1 {
+    display: flex;
+    padding: 10% 0;
+    width: 70%;
+    flex-direction: column;
+}
+
+.red-social {
+    margin: 10% 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30%;
+    
+}
+}
